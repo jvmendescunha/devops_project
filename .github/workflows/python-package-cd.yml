@@ -9,6 +9,8 @@ on:
     types: [completed]
     branches:
       - '*'
+  push:
+    tags: v*
 
 jobs:
   build:
